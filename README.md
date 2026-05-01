@@ -57,13 +57,14 @@ Benchmarking ResNet18 (CNN) against Vision Transformer (ViT) on satellite image 
 ---
 
 ## Confusion Matrix
-
-![ViT Confusion Matrix](confusion_matrix.png) | ![CNN Confusion Matrix](confusion_matrix.png)
+| ViT Confusion Matrix | CNN Confusion Matrix |
+|---|---|
+| ![ViT Confusion Matrix](images/vit_confusion_matrix.png) | ![CNN Confusion Matrix](images/cnn_confusion_matrix.png) |
 
 **Key observations:**
 - Near-perfect diagonal across all 10 classes
-- Hardest class: **PermanentCrop** — confused with AnnualCrop (7 times) and HerbaceousVegetation (7 times). Both are crop types that look visually similar from satellite altitude
-- **River confused with Highway** (7 times) — both are long, thin linear structures; a genuinely hard distinction even for human annotators
+- Hardest class: **PermanentCrop** — confused with AnnualCrop and HerbaceousVegetation. Both are crop types that look visually similar from satellite altitude
+- **River confused with Highway** — both are long, thin linear structures; a genuinely hard distinction even for human annotators
 - Easiest classes: **SeaLake, Forest, AnnualCrop** — visually distinctive spectral signatures
 
 ---
@@ -74,7 +75,7 @@ Visualizing which image patches the ViT attends to when classifying each scene.
 
 | Residential | River | Forest |
 |---|---|---|
-| ![Residential](attention_residential.png) | ![River](attention_river.png) | ![Forest](attention_forest.png) |
+| ![Residential](images/attention_residential.png) | ![River](images/attention_river.png) | ![Forest](images/attention_forest.png) |
 
 The model correctly focuses on building structures for Residential, linear water features for River, and dense canopy texture for Forest.
 
