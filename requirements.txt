@@ -2,7 +2,11 @@ torch
 torchvision
 transformers
 datasets
-numpy
-pandas
-matplotlib
 scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+opencv-python
+pillow
+tqdm
