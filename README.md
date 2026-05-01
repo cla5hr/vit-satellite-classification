@@ -50,15 +50,15 @@ Benchmarking ResNet18 (CNN) against Vision Transformer (ViT) on satellite image 
 | Metric | ViT | CNN |
 |---|---|---|
 | Accuracy | 98.85% | 96.76% |
-| Precision | 98.86% | — |
-| Recall | 98.83% | — |
-| F1-score | 98.84% | — |
+| Precision | 98.86% | 96.62% |
+| Recall | 98.83% | 96.76% |
+| F1-score | 98.84% | 96.66% |
 
 ---
 
 ## Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
+![ViT Confusion Matrix](confusion_matrix.png) | ![CNN Confusion Matrix](confusion_matrix.png)
 
 **Key observations:**
 - Near-perfect diagonal across all 10 classes
