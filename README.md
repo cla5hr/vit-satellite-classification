@@ -1,6 +1,6 @@
-# CNN vs Vision Transformer on EuroSAT Satellite Imagery
+# Satellite Image Classification using CNN vs Vision Transformer
 
-Benchmarking ResNet18 (CNN) against Vision Transformer (ViT) on satellite image land-use classification. Both models are trained on the EuroSAT dataset and evaluated on the same test split.
+This project benchmarks a Convolutional Neural Network (ResNet18) against a Vision Transformer (ViT) for land-use classification using satellite imagery. Both models are trained on the EuroSAT dataset and evaluated on the same test split to compare accuracy, training efficiency, and interpretability between convolution-based and attention-based architectures.
 
 ---
 
