@@ -96,7 +96,7 @@ A fully controlled comparison would use models of equal size pretrained on ident
 ## Setup
 
 ```bash
-pip install torch torchvision transformers datasets evaluate timm scikit-learn opencv-python
+pip install -r requirements.txt
 ```
 
 ---
@@ -109,6 +109,4 @@ Trained locally on **NVIDIA RTX 4050 Laptop GPU (6GB VRAM)** — no cloud comput
 
 ## References
 
-- [An Image is Worth 16x16 Words — Dosovitskiy et al. (2020)](https://arxiv.org/abs/2010.11929)
 - [EuroSAT: A Novel Dataset and Deep Learning Benchmark — Helber et al. (2019)](https://arxiv.org/abs/1709.00029)
-- [HuggingFace Transformers](https://huggingface.co/docs/transformers)
